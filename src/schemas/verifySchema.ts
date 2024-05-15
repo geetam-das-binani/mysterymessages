@@ -5,3 +5,5 @@ export const verifySchema=z.object({
         message:"code must be 6 digits"
     })
 })
+
+export type VerifySchema=z.infer<typeof verifySchema>

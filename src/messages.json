@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Message from User123",
+      "content": "Hey, how are you doing today?",
+      "received": "10 minutes ago"
+    },
+    {
+      "title": "Message from SecretAdmirer",
+      "content": "I really liked your recent post!",
+      "received": "2 hours ago"
+    },
+    {
+      "title": "Message from MysteryGuest",
+      "content": "Do you have any book recommendations?",
+      "received": "1 day ago"
+    }
+    ,{
+      "title": "Message from ExcitedFriend",
+      "content": "Guess what? I got accepted into my dream school!",
+      "received": "3 hours ago"
+  },
+  {
+      "title": "Message from CuriousMind",
+      "content": "Have you ever tried meditation? I'm curious about its benefits.",
+      "received": "5 hours ago"
+  },
+  {
+      "title": "Message from TravelBug",
+      "content": "I just came back from an amazing trip to Japan!",
+      "received": "1 day ago"
+  },
+  {
+      "title": "Message from TechEnthusiast",
+      "content": "Do you think AI will replace humans in certain jobs?",
+      "received": "2 days ago"
+  },
+  {
+      "title": "Message from FitnessFanatic",
+      "content": "What's your favorite workout routine?",
+      "received": "4 days ago"
+  },
+  {
+      "title": "Message from PetLover",
+      "content": "Do you have any tips for training a new puppy?",
+      "received": "1 week ago"
+  },
+  {
+      "title": "Message from FoodieFriend",
+      "content": "Have you tried that new restaurant downtown? The food is amazing!",
+      "received": "2 weeks ago"
+  }
+  ]

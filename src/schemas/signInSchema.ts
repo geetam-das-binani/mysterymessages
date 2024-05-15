@@ -6,3 +6,4 @@ export const signInSchema = z.object({
     .string()
     
 })
+export type SignInSchema = z.infer<typeof signInSchema>

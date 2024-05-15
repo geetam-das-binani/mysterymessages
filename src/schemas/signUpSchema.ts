@@ -5,7 +5,7 @@ export const usernameValidation = z
   .min(3, { message: "username must be alteast 3 characters" })
   .max(20, { message: "username must be less than 20 characters" })
   .regex(/^[a-zA-Z0-9]+$/, {
-    message: "username must not nit contauin specila character",
+    message: "username must not not contain special character",
   });
 export const signUpSchema = z.object({
   email: z.string().email({ message: "email must be valid" }),
@@ -15,3 +15,5 @@ export const signUpSchema = z.object({
     .max(1000, { message: "password must be less than 1000 characters" }),
   username: usernameValidation,
 });
+
+export type SignUpSchema = z.infer<typeof signUpSchema>;
